@@ -13,3 +13,10 @@ class StepStatus(str, Enum):
     COMPLETED = "completed"
     FAILED="failed"
     SKIPPED="skipped"
+
+class ToolErrorType(str, Enum):
+    TIMEOUT = "Timeout"
+    PROVIDER_ERROR = "provider_error"
+    VALIDATION_ERROR = "validation_error"
+    NOT_FOUND = "nor_found"
+    UNKNOWN = "unknown"
