@@ -1,0 +1,17 @@
+# core
+pydantic>=2.0
+pydantic-settings>=2.0
+python-dotenv>=1.0
+
+# Agent
+langchain-core
+langgraph
+langchain-text-splitters
+fastapi
+uvicorn
+
+# testing
+pytest
+pytest-asyncio
+
+google-genai

@@ -1,0 +1,13 @@
+venv/
+.venv3.10/
+__pycache__/
+.env
+logs/
+
+data/vector_store
+
+*.pyc
+
+# macOS
+.DS_Store
+**/.DS_Store
